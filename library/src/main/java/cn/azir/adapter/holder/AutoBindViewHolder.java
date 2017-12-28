@@ -14,9 +14,9 @@ import cn.azir.adapter.anno.ViewHolderInject;
  * <code>
  *
  *     private class CouponViewHolder extends AutoBindViewHolder {
- *          @BaseHolderViewInject(id=R.id.couponDetailShopItemName)
+ *          @ViewHolderInject(id=R.id.couponDetailShopItemName)
  *          private TextView mTvName;
- *          @BaseHolderViewInject(id=R.id.couponDetailShopItemDesc)
+ *          @ViewHolderInject(id=R.id.couponDetailShopItemDesc)
  *          private TextView mTvDesc;
  *          public CouponViewHolder(View baseView) {
  *              super(baseView);
